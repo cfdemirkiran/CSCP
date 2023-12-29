@@ -6,5 +6,5 @@ int main(void)
 {
 	int x = 999;
 
-	printf("%d\n", printf("%d", printf("%d", ++x)));  //100041
+	printf("%d\n", printf("%d", printf("%d", ++x)));
 }

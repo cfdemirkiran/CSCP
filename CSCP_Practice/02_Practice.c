@@ -6,17 +6,17 @@ int main(void)
 
 	x = 2, y = 1, z = 0;
 	x = x && y || z;
-	printf("%d\n", x);  //1
+	printf("%d\n", x); 
 
-	printf("%d\n", x || !y && z);  //1
+	printf("%d\n", x || !y && z);
 
 	x = y = 1;
 	z = x++ - 1;
-	printf("%d\n", x); //2
-	printf("%d\n", z); //0
+	printf("%d\n", x);
+	printf("%d\n", z);
 
 	z += -x++ + ++y;
-	printf("%d\n", x); //3
-	printf("%d\n", z); //0
+	printf("%d\n", x);
+	printf("%d\n", z);
 }
 	

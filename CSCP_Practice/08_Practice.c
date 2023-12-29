@@ -7,5 +7,5 @@ double foo(double x)
 
 int main(void)
 {
-	printf("%f\n", foo(1241.)); // virgülün sağında ki ifade return olacaktır. oda 67.
+	printf("%f\n", foo(1241.));
 }

@@ -7,5 +7,5 @@ int main(void)
 	if (++x > 2,5)
 		printf("%d", ++x);
 	else
-		printf("%d", x++); //3
+		printf("%d", x++);
 }

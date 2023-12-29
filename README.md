@@ -1,2 +1,2 @@
 # CSCP
-c practice
+C practice codes and projects for C coders.

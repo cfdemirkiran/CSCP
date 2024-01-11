@@ -1,7 +1,7 @@
 /*
 Aşağıdaki C programının ekran çıktısı ne olur?
 */
-
+```
 #include <stdio.h>
 
 int main(void)
@@ -11,3 +11,4 @@ int main(void)
 	while (x--);
 		printf("%d ", x);
 }
+```
